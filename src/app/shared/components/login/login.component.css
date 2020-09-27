@@ -1,0 +1,40 @@
+:host{
+   
+background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.login{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+mat-card-title,
+mat-card-content{
+
+    display: flex;
+    justify-content: center;
+}
+mat-card-actions{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.button-area{
+display: flex;
+justify-content: flex-end;
+}
+
+.mat-card{
+    min-width: 20vw;
+    z-index: 10;
+}
+
+.container{
+    
+    background: -webkit-linear-gradient(to right, #4389A2, #5C258D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    height: 100%;
+    width: 100%;
+}

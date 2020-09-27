@@ -1,0 +1,11 @@
+<mat-toolbar color="primary"  class="toolbar-container">
+<span>tienda Online</span>
+<div>
+  <button mat-button [matMenuTriggerFor]="menu">
+    <mat-icon>more_vert</mat-icon>
+</button>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item [routerLink]="['/products','add']">Add new product</button>
+</mat-menu>
+</div>
+</mat-toolbar>
